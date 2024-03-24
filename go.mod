@@ -1,4 +1,4 @@
-module ddocker
+module github.com/Badgain/ddocker
 
 go 1.21
 

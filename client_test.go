@@ -2,11 +2,11 @@ package ddocker
 
 import (
 	"context"
-	"ddocker/consts"
-	"ddocker/container"
-	"ddocker/container/predefined/postgres"
-	"ddocker/container/predefined/postgres/config"
 	"fmt"
+	"github.com/Badgain/ddocker/consts"
+	"github.com/Badgain/ddocker/container"
+	"github.com/Badgain/ddocker/container/predefined/postgres"
+	"github.com/Badgain/ddocker/container/predefined/postgres/config"
 	"github.com/jmoiron/sqlx"
 	_ "github.com/lib/pq"
 	"github.com/stretchr/testify/assert"

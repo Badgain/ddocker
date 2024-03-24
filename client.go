@@ -11,9 +11,9 @@ import (
 	"syscall"
 	"time"
 
-	containers "ddocker/container"
-	ctr_errors "ddocker/errors"
-	"ddocker/utils"
+	containers "github.com/Badgain/ddocker/container"
+	ctr_errors "github.com/Badgain/ddocker/errors"
+	"github.com/Badgain/ddocker/utils"
 
 	"github.com/docker/docker/api/types/container"
 	"github.com/docker/docker/api/types/image"
