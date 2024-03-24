@@ -1,8 +1,8 @@
 package rabbitmq
 
 import (
-	container2 "ddocker/container"
 	"fmt"
+	container2 "github.com/Badgain/ddocker/container"
 )
 
 const (

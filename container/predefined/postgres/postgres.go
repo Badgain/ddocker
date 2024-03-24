@@ -1,9 +1,9 @@
 package postgres
 
 import (
-	container2 "ddocker/container"
-	"ddocker/container/predefined/postgres/config"
 	"fmt"
+	container2 "github.com/Badgain/ddocker/container"
+	"github.com/Badgain/ddocker/container/predefined/postgres/config"
 )
 
 const (
